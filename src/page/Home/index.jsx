@@ -10,7 +10,7 @@ const Index = () => {
       <div>首页</div>
       <Button
         onClick={() => {
-          navigate("main/overview");
+          navigate("/main/overview");
         }}
       >
         去概览

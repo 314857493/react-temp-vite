@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
 import styles from "./index.module.less";
-// eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import _axios from "@/utils/axios";
 import { goLogin } from "@/utils";
-// import { createHashHistory } from "history";
 import { Dropdown, Menu } from "antd";
 import { useSelector, useDispatch } from "react-redux";
 import { setUserInfo } from "@/store/slice/userSlice";
