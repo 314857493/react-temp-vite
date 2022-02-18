@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
 import { Form, Input, Button, message } from "antd";
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+// eslint-disable-next-line no-unused-vars
 import _axios from "@/utils/axios";
 import styles from "./index.module.less";
 import { useDispatch } from "react-redux";

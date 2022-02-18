@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import styles from "./index.module.less";
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+// eslint-disable-next-line no-unused-vars
 import _axios from "@/utils/axios";
 import { goLogin } from "@/utils";
 import { Dropdown, Menu } from "antd";
